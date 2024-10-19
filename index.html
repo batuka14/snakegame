@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>snake game</title>
+		<style>
+			body{
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				background-color:#e1e1e1;
+				height:90vh;
+			}
+			 .canvas{
+                background-color:#fff;
+				border:2px solid #000;
+            }
+			.Point{
+				margin-right:100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="Point">
+			<h3>Point:0</h3>
+			<button onclick="restart()">Restart</button>
+		</div>
+		<canvas class="canvas" width="400px" height="400px"></canvas>
+		<script src="app.js"></script>
+	</body>
+</html>
